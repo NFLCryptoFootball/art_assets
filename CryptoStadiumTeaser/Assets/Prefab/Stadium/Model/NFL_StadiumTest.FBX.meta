@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 65df59d7b09409d4593e1f2158d6c85c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box003
+    100002: Campo
+    100004: Door
+    100006: Door01
+    100008: Fari 002
+    100010: Fari 01
+    100012: Fari Laterali
+    100014: Fari001
+    100016: Fari002
+    100018: Fari003
+    100020: Fari004
+    100022: Fari005
+    100024: Fari006
+    100026: Fari007
+    100028: gradinata
+    100030: gradinata001
+    100032: gradinata002
+    100034: gradinata003
+    100036: //RootNode
+    100038: support door
+    400000: Box003
+    400002: Campo
+    400004: Door
+    400006: Door01
+    400008: Fari 002
+    400010: Fari 01
+    400012: Fari Laterali
+    400014: Fari001
+    400016: Fari002
+    400018: Fari003
+    400020: Fari004
+    400022: Fari005
+    400024: Fari006
+    400026: Fari007
+    400028: gradinata
+    400030: gradinata001
+    400032: gradinata002
+    400034: gradinata003
+    400036: //RootNode
+    400038: support door
+    2100000: 01 - Default
+    2100002: No Name
+    2300000: Box003
+    2300002: Campo
+    2300004: Door
+    2300006: Fari001
+    2300008: Fari002
+    2300010: Fari003
+    2300012: Fari004
+    2300014: Fari005
+    2300016: Fari006
+    2300018: Fari007
+    2300020: gradinata
+    2300022: gradinata001
+    2300024: gradinata002
+    2300026: gradinata003
+    2300028: support door
+    3300000: Box003
+    3300002: Campo
+    3300004: Door
+    3300006: Fari001
+    3300008: Fari002
+    3300010: Fari003
+    3300012: Fari004
+    3300014: Fari005
+    3300016: Fari006
+    3300018: Fari007
+    3300020: gradinata
+    3300022: gradinata001
+    3300024: gradinata002
+    3300026: gradinata003
+    3300028: support door
+    4300000: Campo
+    4300002: gradinata003
+    4300004: gradinata001
+    4300006: gradinata
+    4300008: support door
+    4300010: Door
+    4300012: Box003
+    4300014: Fari007
+    4300016: Fari006
+    4300018: Fari005
+    4300020: gradinata002
+    4300022: Fari002
+    4300024: Fari001
+    4300026: Fari003
+    4300028: Fari004
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
