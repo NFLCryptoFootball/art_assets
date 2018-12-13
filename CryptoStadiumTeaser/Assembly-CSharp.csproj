@@ -140,7 +140,6 @@
     <None Include="Assets\Aura-master\Assets\Aura\Shaders\Shaders\Particles\AuraParticlesAlphaBlend.shader" />
     <None Include="Assets\Aura-master\Assets\Aura\Shaders\Shaders\BuiltinReplacement\BillboardTree.shader" />
     <None Include="Assets\Aura-master\Assets\Aura\Shaders\Aura.cginc" />
-    <None Include="Assets\sky5X\README.txt" />
     <None Include="Assets\Aura-master\Assets\Aura\Shaders\Includes\Structs.cginc" />
     <None Include="Assets\Aura-master\Assets\Aura\Shaders\Shaders\Particles\AuraParticlesAdditive.shader" />
     <None Include="Assets\Aura-master\Assets\Aura\Shaders\ComputeShaders\ComputeAccumulationComputeShader.compute" />
