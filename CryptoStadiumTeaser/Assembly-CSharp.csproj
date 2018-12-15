@@ -161,7 +161,6 @@
     <None Include="Assets\Aura-master\Assets\Aura\Shaders\Shaders\BuiltinReplacement\BillboardTree.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Aura-master\Assets\Aura\Shaders\Aura.cginc" />
-    <None Include="Assets\sky5X\README.txt" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Aura-master\Assets\Aura\Shaders\Includes\Structs.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
