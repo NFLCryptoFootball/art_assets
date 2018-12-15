@@ -74,6 +74,7 @@
     <Compile Include="Assets\Aura-master\Assets\Aura\Editor\Helpers\MeshHelpers.cs" />
     <Compile Include="Assets\Aura-master\Assets\Aura\Editor\Helpers\PreviewRenderUtilityHelpers.cs" />
     <Compile Include="Assets\Aura-master\Assets\Aura\Editor\Statics\GuiStyles.cs" />
+    <Compile Include="Assets\CinemachinePostProcessingV2\Editor\CinemachinePostProcessingEditor.cs" />
     <None Include="Assets\Aura-master\Assets\Aura\Editor\Shaders\ColorFieldDrawerShader.shader" />
     <None Include="Assets\Aura-master\Assets\Aura\Editor\Shaders\Texture3DPreviewShader.shader" />
     <Reference Include="Cinemachine">

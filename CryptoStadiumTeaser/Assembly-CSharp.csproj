@@ -125,6 +125,7 @@
     <Compile Include="Assets\Aura-master\Assets\Aura\Structs\VolumeInjectionShape.cs" />
     <Compile Include="Assets\Aura-master\Assets\Aura\Structs\VolumeLevelsData.cs" />
     <Compile Include="Assets\Aura-master\Assets\Aura\Structs\VolumeTextureData.cs" />
+    <Compile Include="Assets\CinemachinePostProcessingV2\CinemachinePostProcessing.cs" />
     <Compile Include="Assets\Prefab\Statue3DUI\Scripts\UIGlowingLine.cs" />
     <Compile Include="Assets\SpriteGlow\SpriteGlowEffect.cs" />
     <Compile Include="Assets\SpriteGlow\SpriteGlowMaterial.cs" />
