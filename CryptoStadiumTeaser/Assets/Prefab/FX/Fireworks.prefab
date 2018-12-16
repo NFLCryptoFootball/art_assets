@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 198272714176528648}
   - component: {fileID: 199207917166176906}
   m_Layer: 0
-  m_Name: Missile
+  m_Name: Fireworks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -20,7 +20,7 @@ MonoBehaviour:
   - {fileID: 114619777572954496}
   - {fileID: 114630773519453572}
   - {fileID: 114386054286644820}
-  m_FixedDuration: 0
+  m_FixedDuration: 26.016666666665998
   m_EditorSettings:
     m_Framerate: 60
   m_DurationMode: 0
@@ -2616,7 +2616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05acc715f855ced458d76ee6f8ac6c61, type: 3}
   m_Name: Cinemachine Track
   m_EditorClassIdentifier: 
-  m_Locked: 0
+  m_Locked: 1
   m_Muted: 0
   m_CustomPlayableFullTypename: 
   m_AnimClip: {fileID: 0}
