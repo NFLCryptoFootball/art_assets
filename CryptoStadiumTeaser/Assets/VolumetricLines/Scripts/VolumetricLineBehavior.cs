@@ -263,6 +263,9 @@ namespace VolumetricLines
 				startPoint,
 			};
 
+			m_startPos = startPoint;
+			m_endPos = endPoint;
+
 			if (null != m_meshFilter)
 			{
 				var mesh = m_meshFilter.sharedMesh;
