@@ -5,13 +5,11 @@ namespace NFLCryptoFootball.UI
 {
 	public class UIGlowingLine : MonoBehaviour
 	{
-		public Transform[] Points;
-		public VolumetricLineBehavior Line;
+		public VolumetricLineBehavior[] Lines;
 		public GameObject EndObject;
 		public float Speed;
 		public ParticleSystem Particles;
 
-		//private List<Vector3> _points = new List<Vector3>(3);
 		private int _currentIndex = 0;
 		private bool _completed = false;
 		private Vector3 _currentPoint;
@@ -25,13 +23,16 @@ namespace NFLCryptoFootball.UI
 		// Use this for initialization
 		protected void Start()
 		{
-			if (Points.Length > 1)
+			if (Lines.Length > 0)
 			{
-				//_points.Add(Points[_currentIndex].position);
+				foreach (var volumetricLineBehavior in Lines)
+				{
+					volumetricLineBehavior.gameObject.SetActive(false);
+				}
+				EndObject.SetActive(false);
 				SetNextPoint();
-
-				//Line.UpdateLineVertices(_points.ToArray());
-				Particles.transform.position = _currentPoint;
+				
+				Particles.transform.localPosition = _currentPoint;
 				Particles.gameObject.SetActive(true);
 			}
 			else
@@ -45,48 +46,47 @@ namespace NFLCryptoFootball.UI
 		protected void Update()
 		{
 			if (_completed) return;
-			CheckCompleted();
-			if (_completed) return;
 
 			float distanceCovered = (Time.time - _startTime) * Speed;
 			float journeyFraction = distanceCovered / _journeyLength;
 			var currentPoint = Vector3.Lerp(_currentPoint, _nextPoint, journeyFraction);
 
 			_currentPoint = currentPoint;
-
-			//Line.UpdateLineVertices(_points.ToArray());
-			Particles.transform.position = _currentPoint;
+			
+			Particles.transform.localPosition = _currentPoint;
 			_currentLine.SetStartAndEndPoints(_startingPoint, _currentPoint);
 
-			if (currentPoint == Points[_currentIndex].position)
+			if (currentPoint == _nextPoint)
 			{
+				_currentIndex++;
+				CheckCompleted();
+				if (_completed) return;
 				SetNextPoint();
 			}
 		}
 
 		protected void SetNextPoint()
 		{
-			_currentIndex++;
-			if (_currentIndex >= Points.Length)
-			{
-				return;
-			}
+			_currentLine = Lines[_currentIndex];
+			_nextPoint = _currentLine.EndPos;
+			_currentPoint = _currentLine.StartPos;
+			_startingPoint = _currentLine.StartPos;
+			_currentLine.SetStartAndEndPoints(_currentLine.StartPos, _currentPoint);
 
-			_currentPoint = Points[_currentIndex - 1].position;
-			_startingPoint = _currentPoint;
-			_nextPoint = Points[_currentIndex].position;
+			CalculateJourneyData();
 
+			_currentLine.gameObject.SetActive(true);
+		}
+
+		protected void CalculateJourneyData()
+		{
 			_startTime = Time.time;
 			_journeyLength = Vector3.Distance(_currentPoint, _nextPoint);
-
-			_currentLine = GameObject.Instantiate(Line.gameObject, this.transform).GetComponent<VolumetricLineBehavior>();
-			_currentLine.SetStartAndEndPoints(_startingPoint, _currentPoint);
-			_currentLine.gameObject.SetActive(true);
 		}
 
 		protected void CheckCompleted()
 		{
-			if (_currentIndex >= Points.Length)
+			if (_currentIndex >= Lines.Length)
 			{
 				EndObject.SetActive(true);
 				Particles.gameObject.SetActive(false);
