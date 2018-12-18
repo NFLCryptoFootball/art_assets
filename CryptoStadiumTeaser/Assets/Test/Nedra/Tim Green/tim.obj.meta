@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: b110d419078a92f42909a9006d7d0c9a
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: head_group_tim_ears
+    100002: head_group_tim_eyebrows
+    100004: head_group_tim_eyes_reflex
+    100006: head_group_tim_hair
+    100008: head_head_group_tim
+    100010: //RootNode
+    100012: tim_base_pCylinder2
+    100014: tim_base_pCylinder3
+    100016: tim_base_polySurface1
+    100018: tim_base_polySurface2
+    100020: tim_body
+    100022: tim_helmet1_pCube1
+    100024: tim_helmet1_pCube2
+    100026: tim_helmet1_pDisc1
+    100028: tim_helmet1_pDisc3
+    100030: tim_helmet1_pDisc4
+    100032: tim_helmet1_pDisc5
+    100034: tim_pSphere3_helmet1
+    100036: tim_pSphere4_base
+    400000: head_group_tim_ears
+    400002: head_group_tim_eyebrows
+    400004: head_group_tim_eyes_reflex
+    400006: head_group_tim_hair
+    400008: head_head_group_tim
+    400010: //RootNode
+    400012: tim_base_pCylinder2
+    400014: tim_base_pCylinder3
+    400016: tim_base_polySurface1
+    400018: tim_base_polySurface2
+    400020: tim_body
+    400022: tim_helmet1_pCube1
+    400024: tim_helmet1_pCube2
+    400026: tim_helmet1_pDisc1
+    400028: tim_helmet1_pDisc3
+    400030: tim_helmet1_pDisc4
+    400032: tim_helmet1_pDisc5
+    400034: tim_pSphere3_helmet1
+    400036: tim_pSphere4_base
+    2100000: initialShadingGroup
+    2300000: head_group_tim_ears
+    2300002: head_group_tim_eyebrows
+    2300004: head_group_tim_eyes_reflex
+    2300006: head_group_tim_hair
+    2300008: head_head_group_tim
+    2300010: tim_base_pCylinder2
+    2300012: tim_base_pCylinder3
+    2300014: tim_base_polySurface1
+    2300016: tim_base_polySurface2
+    2300018: tim_body
+    2300020: tim_helmet1_pCube1
+    2300022: tim_helmet1_pCube2
+    2300024: tim_helmet1_pDisc1
+    2300026: tim_helmet1_pDisc3
+    2300028: tim_helmet1_pDisc4
+    2300030: tim_helmet1_pDisc5
+    2300032: tim_pSphere3_helmet1
+    2300034: tim_pSphere4_base
+    3300000: head_group_tim_ears
+    3300002: head_group_tim_eyebrows
+    3300004: head_group_tim_eyes_reflex
+    3300006: head_group_tim_hair
+    3300008: head_head_group_tim
+    3300010: tim_base_pCylinder2
+    3300012: tim_base_pCylinder3
+    3300014: tim_base_polySurface1
+    3300016: tim_base_polySurface2
+    3300018: tim_body
+    3300020: tim_helmet1_pCube1
+    3300022: tim_helmet1_pCube2
+    3300024: tim_helmet1_pDisc1
+    3300026: tim_helmet1_pDisc3
+    3300028: tim_helmet1_pDisc4
+    3300030: tim_helmet1_pDisc5
+    3300032: tim_pSphere3_helmet1
+    3300034: tim_pSphere4_base
+    4300000: head_group_tim_ears
+    4300002: head_group_tim_eyebrows
+    4300004: head_group_tim_eyes_reflex
+    4300006: head_group_tim_hair
+    4300008: head_head_group_tim
+    4300010: tim_base_pCylinder2
+    4300012: tim_base_pCylinder3
+    4300014: tim_base_polySurface1
+    4300016: tim_base_polySurface2
+    4300018: tim_body
+    4300020: tim_helmet1_pCube1
+    4300022: tim_helmet1_pCube2
+    4300024: tim_helmet1_pDisc1
+    4300026: tim_helmet1_pDisc3
+    4300028: tim_helmet1_pDisc4
+    4300030: tim_helmet1_pDisc5
+    4300032: tim_pSphere3_helmet1
+    4300034: tim_pSphere4_base
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
